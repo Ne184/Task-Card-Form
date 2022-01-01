@@ -10,9 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <div class="main">
-      <div class="emoji mb-6">💣🤯💥</div>
-      <button class="button">Boom?</button>
-    </div>
+    <h1> Form for customer card details </h1>
+    <form  method="POST">
+    <!-- <label for = -->
+    <input type="text" class ="input" name = "ccname" id = "ccname" autocomplete />
+    <input type="tel" class ="input" name = "cardnumber" id = "cardnumber"  autocomplete />
+    <input type="number" class ="input" name = "cvc" id = "cvc" min="100" max="999" autocomplete />
+    <input type="date" class ="input" name = "cc-exp" id = "cc-exp" autocomplete />
+    </form>
   </body>
 </html>
